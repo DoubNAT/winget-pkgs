@@ -1,0 +1,13 @@
+# Example Winget repository YAML file
+name: CustomWingetRepo
+description: A custom Winget repository with multiple applications.
+identifier: com.github.doubnat
+publisher: DoubNAT
+home: https://github.com/doubnat/winget-pkgs
+
+# List of available packages
+packages:
+  - name: Notpad++
+    version: 8.4.9
+    channel: stable
+    manifest: https://github.com/doubnat/winget-pkgs/raw/main/manifests/n/Notepad++/Notepad++/8.4.9/Notepad++.Notepad++.installer.yaml
